@@ -1,0 +1,222 @@
+#logo{
+ position: relative;
+ left: 400px;
+}
+.change_content:after{
+    color:black;
+    position: relative;
+    font-size: 13px;
+    left: -380px;
+    top: 15px;
+    content: 'CORONA VIRUS RESPONSE AND REBUILDING ACCELERATORS';
+    animation: changetext 5S infinite linear;
+}
+@keyframes changetext{
+    0%{content:"EDTECH ACCELERATORS";}
+}
+h1{
+     position: relative;
+     left: 80px;
+     bottom: 80px;
+     color:rgb(255, 0, 149);
+}
+
+
+h3{
+    position: relative;
+    left: 250px;
+    bottom: 75px;
+}    
+#main{
+    border: 2px solid black;
+    width: 70%;
+    margin: auto;
+    display: block;
+    background-color: white;
+}
+#Upper-Section{
+    border: 2px solid black; 
+    border-radius: 15px;
+    padding: 25px 15px;
+    display: inline-block;
+    display: block;
+    margin: auto;
+    width: 38%;
+    
+}
+.para{
+    font-family: Georgia, 'Times New Roman', Times, serif, cursive; 
+} 
+
+.container{
+    position:relative;
+    display:flex;
+    flex-direction: row;
+      top: -80px;
+       width: 700px;
+       padding: 50px 100px;
+       margin: 5px 5px;
+     border-radius: 10px;
+    left: 5px;  
+}
+.p{
+    padding: 10px;
+    border-style: solid;
+    top: -90px;
+    font-size: 14px;
+    border-width: 1px;
+    border-color:black;
+    border-radius: 15px;
+}
+.p1{
+    padding: 15px;
+    border-top: 3px dotted black;
+}
+.icon{
+    padding:2px;
+    border-radius: 8px;
+    border-width: 1px;
+    position: relative;
+    text-align:center;
+    left: 5px;
+    top: 25px;
+    width: 260px;
+    background: rgb(187, 187, 206);
+}
+.icon2{
+    padding: 10px;
+    border-width: 2px;
+    text-align: center;
+    position: relative;
+    left: 290px;
+    border-radius: 7px;
+    top: -45px;
+    width: 260px;
+   background: rgb(187, 187, 206);
+}
+.icon3{
+    position: relative;
+    text-align: center;
+    left: 580px;
+    top: -112px;
+    border-width:7px;
+    border-radius: 14px;
+    padding: 10px;
+    width: 260px;
+    background: rgb(187, 187, 206);
+}
+.icon4{
+    position: relative;
+    text-align: center;
+    left: 50px;
+    top: -90px;
+    border-width: 7px;
+    border-radius: 14px;
+    padding: 10px;
+    width:320px;
+    background: rgb(187, 187, 206);
+}
+.icon5{
+    position: relative;
+    text-align: center;
+    left: 400px;
+    bottom: 160px;
+    border-width: 8px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 320px;
+    background: rgb(187, 187, 206);
+}
+.p2{
+    position: relative;
+    text-align: center;
+    bottom: 130px;
+}
+.icon6{
+    position: relative;
+    bottom: 120px;
+    left: 20px;
+    height: 5px;
+    width: 5px;
+}
+.icon7{
+    position: relative;
+    bottom: 120px;
+    height: 5px;
+    width: 5px;
+    left: 205px;
+}
+.icon8{
+    position: relative;
+    bottom: 120px;
+    left: 405px;
+}
+.icon9{
+    position: relative;
+    height: 5px;
+    width: 5px;
+    bottom: 220px;
+    left: 630px;
+}
+.p3{
+    position: relative;
+    bottom: 350px;
+    left: 220px;
+}
+.p4{
+    position: relative;
+    left: 100px;
+}
+.button {
+    position: relative;
+    left: 780px;
+    border: none;
+    color: white;
+    bottom:115px;
+    padding: 9px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: green;
+    color: black;
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
